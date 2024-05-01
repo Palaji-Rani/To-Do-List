@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ra.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="task-manager">
+        <header class="header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkip7_wXzDqgDfeWG8juJe7MtAq-nZRZnxIA&s" class="image">
+            <h2>TO-DO-LIST</h2>
+        </header>
+        <div class="clock">
+            <h3 id="current-time">00:00:00</h3>
+        </div>
+        <div class="task-status">
+            <div class="completed-tasks"> 
+                <p>3</p>
+                <h3>Total Tasks</h3>
+                <hr>
+            </div>
+            <div class="pending-tasks">
+                <p>0</p>
+                <h3>Remaining To Do</h3>
+                
+                <hr>
+            </div>
+            <div class="completed-tasks">
+                <p>3</p>
+                <h3>Completed Tasks</h3>
+                
+                <hr>
+            </div>
+        </div>
+        <div class="task-actions">
+            <button id="new">Add a new task</button><span><button id="all">All</button></span>
+        </div>
+        <div class="task-popup" id="popup">
+            <input type="text" placeholder="add task" id="text">
+            <select class="category">
+                <option value="Household">Household</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Work">Work</option>
+                <option value="Business">Business</option>
+            </select>
+             <i class="fa fa-save" style="font-size:24px" id="Save"></i> 
+            <i class="fa fa-close" style="font-size:24px" id="Close"></i>
+            
+        </div>
+        <div class="task-icons">
+             <!-- <i class="fa fa-edit" style="font-size:24px" id="edit"></i> 
+             <i class="fa fa-trash-o delete" style="font-size:24px" id="trash"></i>  -->
+
+
+        </div>
+    </div>
+    <script src="ran.js"></script>
+    <!-- <script src="Ni.js"></script> -->
+    
+
+   
+
+</body> 
+</html>

@@ -1,0 +1,136 @@
+body{
+    background-color: hwb(74 45% 31%);
+    /* overflow-x: hidden; */
+}
+.header{
+    height:110px;
+    width:100%;
+    background-color: #397483;
+    display:flex; 
+    /* font-size: 0.5rem; */
+}
+h2{
+    font-size: 3.2rem;
+    margin-left: 31%;
+}
+.clock{
+    margin-left: 40%;
+    background-color: hsl(96, 51%, 60%);   
+    height: 80px;  
+    width: 20%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.h3{
+    padding: 15%;
+}
+.task-status{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width:60%;
+    margin-top:5% ;
+    text-align: center;
+    background-color:hwb(0 34% 34%);
+    border: 3px solid black;
+    margin-left: 20%;
+    border: none;
+}
+.completed-tasks{
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+p{
+    font-size: 2rem;
+}
+.task-actions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:4%; 
+    margin-left: 20%
+}
+#all{
+    margin-top: 2.5%;
+    margin-left: -630%;
+    text-align: center;
+    width: 45px;
+
+
+}
+button{
+    height: 3rem;
+    width:25%;
+}
+.task-popup {
+    height: 100px;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+}
+.task-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: white; */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    /* z-index: 9999; */
+
+}
+
+/* Adjust the close button styles */
+#close {
+    position: absolute; /* Change to absolute positioning */
+    top: 5px; /* Adjust top positioning */
+    left: 5px; /* Adjust right positioning */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Remaining CSS styles remain unchanged */
+input:hover {
+    border: 5px solid rgb(27, 24, 59);
+}
+
+input {
+    margin-right: 50px;
+    padding: 15px;
+    width: 30%;
+}
+
+#text {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.category {
+    width: 220px;
+}
+
+#save {
+    margin-left: 15px;
+}
+.task-item {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    background-color: hsl(33, 54%, 48%);
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 36rem;
+    /* justify-content: center; */
+    row-gap: 30px;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
